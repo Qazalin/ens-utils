@@ -1,0 +1,32 @@
+Arguments: 
+  /Users/ghazalnzhr/.volta/tools/image/node/16.14.2/bin/node /Users/ghazalnzhr/.volta/tools/image/yarn/1.22.18/bin/yarn.js add -SD typescript @types/node
+
+PATH: 
+  /Users/ghazalnzhr/.volta/tools/image/npm/8.6.0/bin:/Users/ghazalnzhr/.volta/tools/image/yarn/1.22.18/bin:/Users/ghazalnzhr/.volta/tools/image/node/16.14.2/bin:/Users/ghazalnzhr/.volta/bin:/Users/ghazalnzhr/.local/share/solana/install/active_release/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/ghazalnzhr/.volta/bin:/Users/ghazalnzhr/.local/share/solana/install/active_release/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/ghazalnzhr/.cargo/bin:/Users/ghazalnzhr/.local/bin:/Users/ghazalnzhr/Library/Python/3.9/bin:/opt/homebrew/opt/fzf/bin:/Users/ghazalnzhr/.foundry/bin:/Users/ghazalnzhr/.local/bin:/Users/ghazalnzhr/Library/Python/3.9/bin:/Users/ghazalnzhr/.foundry/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "ens-utils",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
