@@ -11,9 +11,9 @@ A work in progress for improving the ens research workflow. This package current
 Install the package using your preferred package manager
 
 ```tsx
-yarn add eth-utils
+yarn add ens-utils
 // or
-npm i eth-utils
+npm i ens-utils
 ```
 
 [setup your Moralis server](https://docs.moralis.io/moralis-dapp/getting-started/create-a-moralis-dapp) by creating an account. If using node, you can use the `[dotenv` package](https://www.npmjs.com/package/dotenv) to not expose environment variables to your public files. Below is an example setup configuration.
