@@ -1,3 +1,8 @@
+export type MorlisAPIOptions = {
+    serverUrl: string
+    appId: string
+    masterKey: string
+}
 export interface ENSMetadata {
     name: string
     description: string
